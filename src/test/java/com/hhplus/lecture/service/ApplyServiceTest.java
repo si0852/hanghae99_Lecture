@@ -69,7 +69,7 @@ public class ApplyServiceTest {
 
         //when && then
         assertThrows(NoUserInfoException.class, () ->
-            applyService.apply(applyDto)
+                applyService.apply(applyDto)
         );
     }
 
